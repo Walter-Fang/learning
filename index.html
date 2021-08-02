@@ -8,6 +8,7 @@
     <h1>hello world</h1>
     <h3>修改1</h3>
     <h3>修改2</h3>
+    <h3>修改3</h3>
     //git init：初始化项目
     //git status
     //git add. :添加当前项目下所有文件；git commit -m "信息": 提交到master
@@ -26,6 +27,14 @@
     //回到上一个版本：git reset --hard HEAD^
 
     //git log --pretty=online 获取说有版本号
+
+
+    <!--
+    如果git add 修改后想撤销，使用以下代码
+    栈存区修改：git restore --staged index.html
+    -->
+
+    //git reset --soft HEAD^   表示撤销commit至上次commit的版本
 
     <script src="./src/js/index.js"></script>
 </body>
