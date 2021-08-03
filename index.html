@@ -66,7 +66,13 @@
 
 
     <!--
-    git stash
+    git stash:
+
+    在分支dev中出现了bug代码main.js，然后git add .,再使用git stash命令。
+    创建bugFix-01分支，在bugFix-01分支中，创建修复的代码新的main.js。
+    然后git add ., git commit -m "bug修复了"
+    转到dev分支，进行合并git merge --no-ff -m "修改合并至dev" bugFix-01
+    然后再dev分支中 git stash apply
 
 
     -->
